@@ -1,0 +1,9 @@
+{
+  "uuid": "mouse-jiggler@murod",
+  "name": "Mouse Jiggler",
+  "description": "Quick Settings toggle that gently moves the pointer using GNOME's compositor input API.",
+  "shell-version": [
+    "50"
+  ],
+  "version": 1
+}

@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Native Tab Switcher POC",
+  "version": "1.0.0",
+  "description": "POC: switches the active Firefox tab on command from a local Native Messaging host.",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "native-tab-switcher-poc@local.test",
+      "strict_min_version": "78.0"
+    }
+  },
+
+  "permissions": [
+    "tabs",
+    "nativeMessaging"
+  ],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}

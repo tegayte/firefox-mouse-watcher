@@ -1,0 +1,7 @@
+{
+  "name": "com.local.native_tab_switcher",
+  "description": "Native messaging host for the Native Tab Switcher POC.",
+  "path": "__ABSOLUTE_PATH_TO_NM_HOST__/nm_host.py",
+  "type": "stdio",
+  "allowed_extensions": ["native-tab-switcher-poc@local.test"]
+}
